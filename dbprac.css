@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: 'Work Sans',sans-serif;
+  background-color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #818181;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   /*------------------------------------------*/
+
+  /* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 172px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+   
+    left: 0;
+    background-color: #333; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+  }
+ 
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 172px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    color: white;
+  }
+  
+  .card1 {
+    /* Add shadows to create the "card" effect */
+    border-style: groove;
+    width: 250px;
+    float: right;
+    margin: 20px 150px 0px 0px;
+  }
+
+  .card2 {
+    /* Add shadows to create the "card" effect */
+    border-style: groove;
+    width: 250px;
+    float: left;
+    margin: 20px 0px 0px 150px;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  footer{
+    background-color: #43263c;
+    color:#dcdcdc;
+    bottom: 0;
+    width: 100%;   
+    position:fixed;
+    left: 0;
+    text-align: center;
+  }
